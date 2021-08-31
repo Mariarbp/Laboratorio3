@@ -1,0 +1,190 @@
+/* María Renée Benavides Puente A01139495 */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.logo > img {
+  width: 50px;
+}
+
+/* Tablets */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+	h1 {
+		text-align: center;
+		margin-left: 20%
+	}
+
+	header {
+		display: flex;
+		flex-direction: row;
+	}
+
+	.menu {
+    	display: none;
+  	}
+
+	.logo {
+		margin-left: 10%;
+		margin-top: 10px;
+	}
+
+
+	.social {
+    	display: flex;
+    	flex-direction: row;
+    	justify-content: space-around;
+    	list-style: none;
+    }
+	
+	.product {
+		display: flex;
+		flex-direction: column;
+		border: 1px solid dimgray;
+		border-radius: 5px;
+		padding: 8px;
+  		align-items: center;
+  		margin: 5% ;
+    }
+
+	.hamburger {
+		color: white;
+		background-color: dimgray;
+		display: flex;
+		justify-content: flex-end;
+	}
+
+   
+}
+
+/* Móviles */
+
+@media (max-width: 767px) {
+
+	h1 {
+		text-align: center;
+	}
+	
+	.menu {
+    	display: none;
+  	}
+
+	.logo {
+		margin: 4px;
+		text-align: center;
+	}
+
+	
+	.social {
+    	display: flex;
+    	flex-direction: row;
+    	justify-content: space-around;
+    	list-style: none;
+    	border: 1px solid lightgray;
+    }
+
+	.product {
+		display: flex;
+		flex-direction: column;
+		border: 1px solid lightgray;
+		border-radius: 4px;
+		padding: 8px;
+  		align-items: center;
+  		margin: 4px
+    }
+
+	.hamburger {
+		color: white;
+		background-color: dimgray;
+		display: flex;
+		justify-content: flex-end;
+		padding-right: 4px
+		
+	}  
+
+}
+
+/* Pantallas Grandes */
+@media (min-width: 1025px) {
+
+	h1 {
+		text-align: center;
+		margin-left: 20%
+	}
+
+	header {
+		display: flex;
+		flex-direction: row;
+		margin-top: 2%;
+	}
+
+	.menu {
+    	display: flex;
+		flex-direction: row;
+		justify-content: flex-end;
+		background: dimgray;
+		list-style: none;
+		color: white
+  	}
+
+  	.menu > li {
+  		padding-top: 12px;
+  		padding-bottom: 12px;
+  		padding-left: 12px;
+  		padding-right: 12px;
+  	}
+
+	main {
+   		display: flex;
+    	flex-direction: row;
+ 	}
+
+	.logo {
+		margin-left: 10%;
+		margin-top: 9px;
+	}
+
+	
+	.social {
+    	display: flex;
+    	flex-direction: row;
+    	justify-content: space-around;
+    	list-style: none;
+    	border: 1px solid lightgray;
+    }
+
+	.product {
+		border: 2px solid dimgray;
+		border-radius: 4px;
+		padding: 7px;
+		display: flex;
+		flex-direction: column;
+  		align-items: center;
+  		margin: 4px ;
+  		width: 33%;
+    }
+
+    .product > i {
+    	display: flex;
+    	flex-direction: row;
+    	justify-content: center;
+    }
+
+	.hamburger {
+		display: none;
+	}
+
+	
+
+	
+
+    
+}
